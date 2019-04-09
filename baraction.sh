@@ -38,6 +38,6 @@ while :;do
   VOLUME=`print_volume`
   SONG=`print_song`
   SONG_STATUS=`print_song_status`
-  echo -e "$DATE :: [$VOLUME] [$SONG_STATUS] $SONG"
+  echo -e "$DATE    ::    [$VOLUME] [$SONG_STATUS] $SONG"
   sleep $SLEEP_SEC
 done
