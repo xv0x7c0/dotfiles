@@ -10,6 +10,7 @@ fi
 
 ./.fehbg &
 syndaemon -k -i 1 &
+redshift &
 mpd &
 clipmenud &
 while true; do
