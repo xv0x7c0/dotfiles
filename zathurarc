@@ -1,0 +1,14 @@
+# ~/.config/zathura/zathurarc
+
+# base layout
+set guioptions ""
+
+# colors
+set default-bg  "#2B2B2B"
+set inputbar-bg "#131313"
+set inputbar-fg "#cccccc"
+
+# options
+set adjust-open width
+set statusbar-home-tilde
+set selection-clipboard primary
