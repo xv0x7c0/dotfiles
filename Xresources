@@ -1,4 +1,5 @@
 ! URXVT
+URxvt.perl-ext-common: selection-to-clipboard
 ! Fonts
 urxvt.font: xft:Inconsolata\-g:style=g:pixelsize=18
 ! Style
@@ -9,6 +10,8 @@ URxvt*scrollWithBuffer: true
 URxvt*scrollTtyKeypress: true
 URxvt.secondaryScreen: 1
 URxvt.secondaryScroll: 0
+! Clipboard management
+URxvt.clipboard.autocopy: true
 ! Colors
 URxvt*background: #2B2B2B
 URxvt*foreground: #DEDEDE
