@@ -4,8 +4,8 @@
 
 if [[ `xrandr | grep "HDMI[2-3] connected" | wc -l` -eq 2 ]];then 
   xrandr --output LVDS1 --off
-  xrandr --output HDMI3 --auto --primary
-  xrandr --output HDMI2 --auto --right-of HDMI3
+  xrandr --output HDMI2 --auto --primary
+  xrandr --output HDMI3 --auto --right-of HDMI2
 fi
 
 ./.fehbg &
